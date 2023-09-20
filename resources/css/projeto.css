@@ -18,8 +18,8 @@
 #botoes {
   background-color: #454545;
   align-items: center;
-  height: 60px;
-  width: 250px;
+  height: 40px;
+  width: 100px;
   border-radius: 20px;
   margin-left: 20px;
 }
@@ -746,6 +746,9 @@ table {
 #botaofav {
   background-color: #666570;
 }
+#botaonfv {
+  background-color: #321EB1;
+}
 
 #drops {
   list-style: none;
@@ -1126,11 +1129,22 @@ table {
 }
 
 #botaoo{
-  font-size: 15px;
-  color: #454545;
+  font-size: 17px;
+  color: #000000;
 
 }
 
 #palavras {
   justify-content: center;
+  background-color: #8a8a8f;
+}
+
+#titulos {
+  margin-right: 40px;
+}
+
+#certobotom {
+  background-color: #2B1998;
+  color: white;
+  height: 35px;
 }
