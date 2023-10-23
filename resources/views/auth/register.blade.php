@@ -50,13 +50,13 @@
             <div class="col-6">
             <img src="{{asset('storage/imagens/chaves.png')}}" />
               <label for="address" class="form-label">Senha</label>
-              <input type="text" class="form-control" id="address" placeholder="Senha" required>
+              <input type="password" class="form-control" id="address" placeholder="Senha" required>
             </div>
             <br>
             <div class="col-6">
             <img src="{{asset('storage/imagens/chaves.png')}}" />
               <label for="address2" class="form-label">Confirmar Senha</label>
-              <input type="text" class="form-control" id="address2" placeholder="Confirmar Senha">
+              <input type="password" class="form-control" id="address2" placeholder="Confirmar Senha">
             </div>
             <br>
             <br>
