@@ -32,7 +32,7 @@ class ControladorAnimal extends Controller
     {
         $path = $request -> file('arquivo')->store('imagens', 'public');
         $data = new Animal () ;
-        $data ->  nome = $request -> input ('nome');
+        $data -> nome = $request -> input ('nome');
         $data -> idade = $request -> input ('idade');
         $data -> especie = $request -> input ('especie');
         $data -> raca = $request -> input ('raca');
